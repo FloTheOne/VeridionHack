@@ -16,14 +16,18 @@ NUM_ROUNDS = 5
 glove, df_excel, df = load_resources()
 
 def what_beats(word):
-    sleep(random.randint(1, 3))  # Add slight delay for realism
+    sleep(random.randint(1, 3))  # Simulează un delay
     best_word = get_best_word(word, glove, df_excel, df)
     print(f"[Decision] Weakness for '{word}': {best_word}")
 
+    # Caută rândul care corespunde cuvântului
     matched = df_excel[df_excel["Word"] == best_word.lower()]
+    
     if not matched.empty:
-        return int(matched.index[0]) + 1  # Word ID is index+1
-    return random.randint(23, 50)  # Fallback if not found
+        return int(matched.iloc[0]["#"])  # Folosește coloana "#" ca ID
+
+    # Dacă nu se găsește nimic, alege un fallback safe
+    return random.randint(23, 50)
 
 def play_game(player_id):
     print(f"\n=== Starting game as player: {player_id} ===")
@@ -66,5 +70,5 @@ def play_game(player_id):
     print(f"\n=== Game Finished for {player_id} ===")
 
 # Run it
-what_beats("church")
+what_beats("broom")
 play_game("ynngS2cuuV")
