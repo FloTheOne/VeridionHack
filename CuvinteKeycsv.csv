@@ -1,0 +1,61 @@
+#,Word,Cost ($),Weakness
+1,Feather,1,Flame
+2,Coal,1,Water
+3,Pebble,1,Robots
+4,Leaf,2,Flame
+5,Paper,2,Flame
+6,Rock,2,Robots
+7,Water,3,Explosion
+8,Twig,3,Flame
+9,Sword,4,Flame
+10,Shield,4,Flame
+11,Gun,5,Flame
+12,Flame,5,Water
+13,Rope,5,Flame
+14,Disease,6,Cure
+15,Cure,6,Time
+16,Bacteria,6,Cure
+17,Shadow,7,Light
+18,Light,7,Antimatter
+19,Virus,7,Cure
+20,Sound,8,Time
+21,Time,8,Entropy
+22,Fate,8,Karma
+23,Earthquake,9,Gravity
+24,Storm,9,Wind
+25,Vaccine,9,Time
+26,Logic,10,Supernova
+27,Gravity,10,Time
+28,Robots,10,Storm
+29,Stone,11,Gravity
+30,Echo,11,Sound
+31,Thunder,12,Time
+32,Karma,12,Enlightenment
+33,Wind,13,Stone
+34,Ice,13,Gravity
+35,Sandstorm,13,Wind
+36,Laser,14,Sandstorm
+37,Magma,14,Ice
+38,Peace,14,War
+39,Explosion,15,Time
+40,War,15,Peace
+41,Enlightenment,15,Time
+42,Nuclear Bomb,16,Star
+43,Volcano,16,Ice
+44,Whale,17,Gun
+45,Earth,17,Star
+46,Moon,17,Star
+47,Star,18,Supernova
+48,Tsunami,18,Wind
+49,Supernova,19,Antimatter
+50,Antimatter,19,Time
+51,Plague,20,Cure
+52,Rebirth,20,Karma
+53,Tectonic Shift,21,Time
+54,Gamma-Ray Burst,22,Antimatter
+55,Human Spirit,23,Karma
+56,Apocalyptic Meteor,24,Star
+57,Earth’s Core,25,Earth
+58,Neutron Star,26,Supernova
+59,Supermassive Black Hole,35,Time
+60,Entropy,45,Human Spirit
