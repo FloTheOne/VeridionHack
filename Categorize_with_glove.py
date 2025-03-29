@@ -101,8 +101,9 @@ def get_best_word(word, glove, df_excel, df):
     if not category:
         category, score = categorize_with_tfidf(word, df)
     weakness = get_weakness(word, category, df, df_excel)
+    if weakness == "unknown":
+        return "star"
     return weakness
-
 # Example usage:
 # glove, df_excel, df = load_resources()
 # print(get_best_word("tornado", glove, df_excel, df))
